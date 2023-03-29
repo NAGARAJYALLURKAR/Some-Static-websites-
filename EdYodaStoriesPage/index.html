@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdYoda Stories </title>
+    <style>
+        body{
+            margin: 0%;
+            border: 0%;
+            
+        }
+        .nav-container{
+            
+            display: flex;
+            flex-direction: row;
+            flex: left;
+            height: 80px;
+            width: 100%;
+            background-color: #fff;
+            border-bottom: 1px solid #D3D3D3 ;
+            box-shadow: 0px 0px 10px #D3D3D3 ;
+            position: sticky;
+            top: 0;
+           
+            
+        }
+        .nav-item{
+            padding: 16px 78px;
+            /* background-color: #fff; */
+        }
+        .logo{
+            width:130px;
+            font-size: 32px;
+            color: #0084ff;
+            font-family: Raleway,sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-stretch: normal;
+            padding-bottom: 0;
+           
+        }
+        .logo-stories{
+            margin: 0;
+            font-weight: 500;
+            font-family: Raleway;
+            font-style: italic;
+            padding-top: 0;
+            line-height: 0;
+        }
+        .drop-down-text{
+            color: #000;
+
+        }
+        .drop-down-icon{
+           
+            padding-left: 8px;
+            width: 12px;
+        }
+        .drop-down-text:hover{
+            cursor: pointer;
+        }
+        .body-container{
+            padding: 2% 16%;
+            scroll-behavior: smooth;
+            background-color: #f2f6ff;
+
+        }
+        .haading{
+            margin: 0;
+            color: #000;
+            font-weight: 600;
+
+        }
+        .fliter-text{
+            display: flex;
+            padding-top: 20px;
+        }
+        .categories{
+            margin-bottom: 20px;
+            font-size: 16px;
+            padding-top: 16px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .category-item{
+            
+            padding:6px 14px;
+            width: auto;
+            color: #0084ff;
+            border: 1px solid #0084ff;
+            border-radius: 15px;
+            margin: 5px;
+            
+
+        }
+        .category-item:hover{
+            cursor: pointer;
+            background-color: #0084ff;
+            color: #fff;
+
+        }
+        .active{
+            background-color: #0084ff;
+            color: #fff;
+        }
+        .blogs{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .blog-items{
+            width: 30.3%;
+            margin: 10px;
+            border: 1px solid #00a8ff4d;
+            border-radius: 5px;
+            box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+
+        }
+        .blog-img{
+            height: 176px;
+            width: 100%;
+        }
+        .blog-img img{
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .blog-content{
+            padding: 10px 24px;
+        }
+        .blog-title{
+            font-size: 18px;
+            text-align: left;
+            margin: 0;
+            font-weight: 600;
+        }
+        .blog-author{
+            padding-top: 4px;
+            color: #0096ff;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 500;
+
+
+        }
+        .blog-date{
+            color:rgb(0,0,0,0.7);
+            font-size: 14px;
+            font-weight: 300;
+            
+        }
+        .blog-text{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.43;
+            color: rgba(0,0,0,0.6);
+            margin: 4px 0px;
+        }
+        .footer{
+            padding: 18px 16%;
+            background-color: #172146;
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-item">
+           <label class="logo" >EDYODA</label>
+           <p class="logo-stories">Stories</p>
+        </div>
+        <div class="nav-item">
+            <p class="drop-down-text">Explore Categories<span><img class="drop-down-icon" src="https://static.thenounproject.com/png/1666929-200.png" alt="dropdownicon" ></span></p>
+        </div>
+    </nav>
+    <div class="body-container">
+        <section>
+            <h2 class="haading">Trending Posts</h2>
+            <div class="fliter-text">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/155/655/non_2x/filter-icon-sign-symbol-design-free-png.png" alt="" style="width:18px; height: 18px; ">
+                <span style="font-size: 14px; font-weight: 600; margin-left: 8px;">Fliter by category</span>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="category-item active">All</div>
+            <div class="category-item">Artificial Intelligence</div>
+            <div class="category-item">Cloud Computing</div>
+            <div class="category-item">DevOps</div>
+            <div class="category-item">Mobile Application Development</div>
+            <div class="category-item">Programming Languages</div>
+            <div class="category-item">Technology and Tools</div>
+            <div class="category-item">Get a Job in a Tech Company</div>
+            <div class="category-item">Others</div>
+        </section>
+        <section class="blogs">
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png" alt="Introduction to meachine learning image">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Introduction To A Meachine Learning Online Course
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        We have had an insight into Artificial Intelligence Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what this machine learning...
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" alt="Lamp Stack vs MERN Stack">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Lamp Stack vs MERN Stack
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        in today's dynamic world developing a rapid application with a smooth user interface that can adapt to specific features is the main business requirement Many organizations
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="Impact of Cloud Computing in various industries">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Impact of Cloud Computing in various industries
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    
+                    <p class="blog-text">
+                        Cloud computing has been rapidly gaining pace in the world of Information technology it has been observed that over go of global enterprises are using cloud
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png" alt="Challenges of Machine Learning">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Challenges of Machine Learning
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        Machine  Learning is a subset of artificial intelligence which is an important part of computer science The revolution of Big Data promises to transform the way we work, live and
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" alt="Breaking the Myths around Cybersecurity">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Breaking the Myths around Cybersecurity
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        Cybersecurity plays an integral role in the process of good business models But even cybersecurity programs bulit with good intentions can fall short in front of advanced cyber attacking
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png" alt="Importance of Data Backups & Recovery">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Importance of Data Backups & Recovery
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        A business must always introspect the areas where they lack in order to bring about a positive change in the work environment One of the main precautions contingency plan 
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="What is Web Scraping?">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        What is Web Scraping?
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        Simply put, web scraping is one of the tools developers use to gather and analyze information from the internet Some websites and platforms offer application programming interfaces
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png" alt="What is Income Share Agreement?">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        What is Income Share Agreement?
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        The term income Shane Agreement has been around for a long time since 1955 to be precise Surprised ett was first introduced by Milton Friedman, an American economist
+                    </p>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="blog-img">
+                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="Practical Machine Learning with Python and Keras">
+                </div>
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        Practical Machine Learning with Python and Keras
+                    </h2>
+                    <p class="blog-author"> EdYoda<span class="blog-date"> | 18 Feb 2023</span></p>
+                    <p class="blog-text">
+                        Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to learn teg progressively improve performance on a specific
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
